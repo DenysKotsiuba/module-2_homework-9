@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "homework-9"
+version = "0.1.0"
+description = ""
+authors = ["Denys Kotsiuba"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+bs4 = "~0.0.1"
+requests = "~2.31.0"
+lxml = "^4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
